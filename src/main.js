@@ -15,10 +15,10 @@ import { Button } from 'mint-ui';
 Vue.component(Button.name, Button);
 Vue.component(Tabbar.name, Tabbar);
 Vue.component(TabItem.name, TabItem);
-Vue.http.options.root = 'http://www.liulongbin.top:3005'
+Vue.http.options.root = 'http://www.liulongbin.top:3005';
+Vue.http.options.emulateJSON=true;
 var vm=new Vue({
   el:'#app',
   render:c=>c(app),
   router,
-  
 })

@@ -5,8 +5,8 @@
         </mt-swipe>
         <div class="grid-con">
             <div class="grid-1">
-            <div class="grid"><router-link to="com1/newsList">新闻资讯</router-link></div>
-            <div class="grid">2</div>
+            <div class="grid"><router-link to="home/newsList">新闻资讯</router-link></div>
+            <div class="grid"><router-link to="home/photolist">美图分享</router-link></div>
             <div class="grid">3</div>
             </div>
             <div class="grid-2">
@@ -43,7 +43,11 @@ export default {
     
 }
 </script>
-<style scoped>
+<style>
+body{
+    margin: 0 0;
+    padding: 0;
+}
 .mint-swipe{
     width: 100%;
     height: 160px;

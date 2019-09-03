@@ -6,10 +6,10 @@
         </transition>
         <div class="tabbar-wrap">
            <mt-tabbar>
-        <router-link class="mint-tab-item" id="tab1" to="/com1"><img slot="icon" src="./images/timg.jpg"><div><i class="iconfont icon-wodedangxuan"></i></div><div>111</div></router-link>
-        <router-link class="mint-tab-item" id="tab2" to="/com2"><img slot="icon" src="./images/timg.jpg"><div><i class="iconfont icon-icon_gouwuchemi"></i></div><div>222</div></router-link>
-        <router-link class="mint-tab-item" id="tab3" to="/com3"><img slot="icon" src="./images/timg.jpg"><div><i class="iconfont icon-shangdian-"></i></div><div>333</div></router-link>
-        <router-link class="mint-tab-item" id="tab4" to="/com4"><img slot="icon" src="./images/timg.jpg"><div><i class="iconfont icon-iconfonticon-shebei"></i></div><div>444</div></router-link>
+        <router-link class="mint-tab-item" id="tab1" to="/home"><img slot="icon" src="./images/timg.jpg"><div><i class="iconfont icon-wodedangxuan"></i></div><div>111</div></router-link>
+        <router-link class="mint-tab-item" id="tab2" to="/my"><img slot="icon" src="./images/timg.jpg"><div><i class="iconfont icon-icon_gouwuchemi"></i></div><div>222</div></router-link>
+        <router-link class="mint-tab-item" id="tab3" to="/shopping"><img slot="icon" src="./images/timg.jpg"><div><i class="iconfont icon-shangdian-"></i></div><div>333</div></router-link>
+        <router-link class="mint-tab-item" id="tab4" to="/vip"><img slot="icon" src="./images/timg.jpg"><div><i class="iconfont icon-iconfonticon-shebei"></i></div><div>444</div></router-link>
         </mt-tabbar> 
         </div>
         <!-- <mt-tabbar v-model="selected">

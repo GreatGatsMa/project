@@ -24,6 +24,7 @@ module.exports = {
     port: 3000,
     contentBase: './dist',
     open: true,
+    // host:'192.168.137.1'
   },
   resolve: {
     alias: {

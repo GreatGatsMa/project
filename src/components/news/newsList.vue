@@ -1,6 +1,6 @@
 <template>
 <div>
-    <router-link :to="'/com1/newsInfo/'+item.id" class="news-wrap" v-for="item in newsList" :key="item.id">
+    <router-link :to="'/home/newsInfo/'+item.id" class="news-wrap" v-for="item in newsList" :key="item.id">
             <div class="img-wrap">
                 <img :src="item.img_url">
             </div>
