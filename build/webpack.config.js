@@ -3,17 +3,18 @@ const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 module.exports = {
-  mode:"development",
+  // mode:"development",
   entry: {
     // 配置入口文件
     main: path.resolve(__dirname, '../src/main.js')
+    // main:'./src/main.js'
   },
   output: {
     
     // 配置打包文件输出的目录
     path: path.resolve(__dirname, '../dist'),
     // 生成的 js 文件名称
-    filename: 'js/bundle.[hash:8].js',
+    filename: 'bundle.js',
     // 生成的 chunk 名称
     chunkFilename: 'js/[name].[hash:8].js',
     // 资源引用的路径
@@ -134,5 +135,7 @@ module.exports = {
     }),
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
+    // new webpack.NamedModulesPlugin(),
+    // new webpack.DefinePlugin({ "process.env.NODE_ENV": JSON.stringify("development") })
   ]
 }
